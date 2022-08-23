@@ -1,0 +1,72 @@
+.container {
+    margin: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 50%;
+    box-shadow: 5px 10px;
+    align-items: center;
+    background-color: rgba(255,255,255, 0.4);
+    background-image: url("Cockie.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 2px gold;
+    background-image: linear-gradient(to bottom right, rgb(39, 162, 238), yellow);
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    font-weight: bold;
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#increment-btn {
+    background: green;
+    color: lemonchiffon;
+    text-shadow: 2px 2px 3px #000000;
+}
+
+#increment-btn:hover{
+    color: green;
+    background: rgb(171, 242, 185);
+    border: 1px solid green;
+}
+
+#save-btn {
+    background: white;
+    color: gold;
+    text-shadow: 1px 1px #000000;
+}
+
+#save-btn:hover{
+    color: white;
+    background: gold;
+    border: 1px solid white;
+}
